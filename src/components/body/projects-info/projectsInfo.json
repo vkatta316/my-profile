@@ -1,0 +1,64 @@
+[
+    {
+      "title": "Restaurent Feedback And View Menu",
+      "image": "images/bike.png",
+      "description": "Provide feedback for a Restaurent and view food menu options ",
+      "technologies": "React JS | JSON Server | React-Bootstrap",
+      "github": "https://github.com/vkatta316/restaurent-food-menu",
+      "deployed": "https://github.com/vkatta316/restaurent-food-menu",
+      "bgcolor": "#d3cac5",
+      "id": "1"
+    },
+    {
+      "title": "Contacts Database",
+      "image": "./images/contactDatabase.png",
+      "technologies": "Node | Express.js | Pug | Better SQLite3 | CSS",
+      "description": " The Contacts database application will list all the contacts and from there the user can view, edit, delete, or add a contact.",
+      "github": "https://github.com/vkatta316/ContactsDatabase",
+      "deployed": "",
+      "bgcolor": "#67b36f",
+      "id": "2"
+    },
+    {
+      "title": "Weather Forecast",
+      "image": "./projectImages/team.png",
+      "technologies": "Vanilla Javascript | HTML | CSS",
+      "description": "Team Dashboard is a Node command-line application that takes in information about employees to generate a dynamic HTML web page.",
+      "github": "https://github.com/vkatta316/weather-forecast",
+      "deployed": "",
+      "bgcolor": "#d29999",
+      "id": "3"
+    },
+    {
+      "title": "Hotel Room Reservation",
+      "image": "./projectImages/quiz.png",
+      "technologies": "JAVA | Jakarta EE | JPA, JSF, MySQL, ",
+      "description": "In this application, user book a room in a hotel, a customer must check the application to see if there is an empty room, the duration of the reservation and the overall cost.",
+      "github": "https://github.com/mdyeates/coding-quiz",
+      "deployed": "",
+      "bgcolor": "#fda9bf",
+      "id": "4"
+    },
+  
+    {
+      "title": "Online Movie Ticket Booking",
+      "image": "./projectImages/P1.png",
+      "description": "This project is aimed at building an interface for an online movie ticket booking system. Giving customers a convenient way to buy movie tickets is the main objective of the online ticket reservation system.",
+      "technologies": "JavaFX | SceneBuilder | MySQL",
+      "github": "https://github.com/vkatta316/online-movie-ticketing",
+      "deployed": "",
+      "bgcolor": "#ffc1c1",
+      "id": "1"
+    },
+  
+    {
+      "title": "House Listing",
+      "image": "./projectImages/planner.png",
+      "technologies": "React | Firebase| HTML | Bootstrap",
+      "description": "List your house online for sale/Rent",
+      "github": "https://github.com/vkatta316/house-listing",
+      "deployed": "",
+      "bgcolor": "#bfdaf2",
+      "id": "6"
+    }
+  ]
