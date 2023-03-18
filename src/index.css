@@ -55,7 +55,7 @@ section {
   display: flex;
   flex-direction: column;
   letter-spacing: 1px;
-  
+  padding-left: 2rem;
   z-index:  1;
   color: #fff;
   text-shadow:1px 1px 3px #000;
@@ -149,8 +149,9 @@ section {
 }
 
 
-.contentContainer {
-  padding: 10px;
+.contentContainer, .contactWrap {
+  padding-top: 8rem;
+  padding-left: 8rem;
 }
 
 .contentContainer h4 {
@@ -185,14 +186,14 @@ section {
 }
 
 .infoContainer p {
-  color: #fff;
+  color: #009e66;
   display: inline-block;
   margin-left: 10px;
   margin-bottom: 10px;
 }
 
 .infoContainer a {
-  color: #fff;
+  color: #009e66;
 }
 
 .infoContainer a:hover {
@@ -218,6 +219,10 @@ section {
 
 .btn:hover {
   background-color: #03b979;
+}
+
+.btn{
+  margin: 1rem;
 }
 
 .downloadCV {
@@ -255,11 +260,41 @@ section {
 
   .personalImage {
     height: 330px;
-
     display: flex;
     align-items: center;
     justify-content: center;
   }
+}
+
+/* Contact */
+
+.mediaWrap {
+  border-left: 2px solid grey;
+  padding-left:30px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+ul {
+  list-style: none;
+}
+
+.infoType {
+  color:  #f3f3f3;;
+  font-size: 15px;
+}
+
+.infoValue{
+  color: #009e66;
+}
+
+.infoValue a{
+  color: #009e66;
+}
+
+.infoDescription {
+  margin-bottom: 30px;
+  color: #009e66;
 }
 
 /* Landing */
@@ -302,12 +337,32 @@ section {
     font-size: 32px;
   }
 
-  .landingImage {
-    bottom: 0;
-    right: 80px;
-  }
+  
 
   .landing .socialIcons {
     flex-direction: column;
   }
 }
+
+
+@media (min-width: 320px) and (max-width: 500px){
+  .landingImage {
+    height: 25rem;
+    padding-right: 3rem;
+  }
+
+  .landing .name {
+    font-size: 4rem;
+  }
+
+  h2{
+    font-size: small;
+  }
+
+
+.contentContainer, .contactWrap {
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+}
+
