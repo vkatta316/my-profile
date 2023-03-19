@@ -1,7 +1,6 @@
 import React from "react";
-import Navigation from "./components/header/Navigation";
 import MainComponent from "./MainComponent";
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import { BrowserRouter as Router} from 'react-router-dom'
 
 function App() {
   return (

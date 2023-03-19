@@ -2,14 +2,13 @@ import React from 'react'
 import { Container, Nav, Navbar } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import { FaHome, FaLaptopCode, FaPhone, FaUserCircle } from 'react-icons/fa';
+import logo from "../../images/Logo.png";
 
 function Navigation() {
   return (
     <Navbar bg="dark" classname="header" expand="lg" variant="dark" >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
-            
-        </Navbar.Brand>
+      <Navbar.Brand href="/" ><img className="navLogo" src={logo} alt="Close" /></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav"></Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">

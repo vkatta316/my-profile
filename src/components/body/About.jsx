@@ -1,11 +1,14 @@
 import React from 'react'
 import PageHeader from '../header/PageHeader'
-import landingImage from "../../images/Pic.png";
+
 import { motion } from 'framer-motion'
 import { useState, useEffect } from "react";
 import resume from "../../resume/Vinay-Chowdary-Katta-Resume.pdf"
 
 function About() {
+
+  document.title = "About"
+
   const [downloading, setDownloading] = useState(false);
 
   useEffect(() => {

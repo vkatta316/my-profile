@@ -4,6 +4,7 @@ import ContactForm from './ContactForm'
 import { motion } from 'framer-motion'
 
 function Contact() {
+  document.title = "Contact"
   return (
     <section className="contact">
       <PageHeader title="Contact" description="Get In Touch" />
@@ -36,6 +37,17 @@ function Contact() {
                     <div className="mediaWrap">
                       <h6 className="infoType">Location</h6>
                       <span className="infoValue">Chicago</span>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div className="personalContactInfo">
+                    <span className="infoIcon">
+                      <i className="icon fa-solid fa-location-pin "></i>{" "}
+                    </span>
+                    <div className="mediaWrap">
+                      <h6 className="infoType">Mobile Number</h6>
+                      <span className="infoValue">+1 630-853-6380</span>
                     </div>
                   </div>
                 </li>

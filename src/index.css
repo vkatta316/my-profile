@@ -29,6 +29,10 @@ code {
   
 }
 
+.navLogo{
+  height: 3rem;
+}
+
 /* --------- */
 /* Home Page */
 /* --------- */
@@ -57,7 +61,7 @@ section {
   letter-spacing: 1px;
   padding-left: 2rem;
   z-index:  1;
-  color: #fff;
+  color: #808080;
   text-shadow:1px 1px 3px #000;
 }
 
@@ -69,7 +73,7 @@ section {
 .waviy h1, .description {
   position: relative;
   display: inline-block;
-  color: #fff;
+  color: #808080;
   text-transform: uppercase;
   animation: waviy 1s infinite;
   animation-delay: calc(.1s * var(--i));
@@ -87,7 +91,7 @@ section {
 
 
 .pageHeader{
-  color: #fff;
+  color: #808080;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -97,7 +101,7 @@ section {
 
 .card{
   margin: 1rem 0%;
-  background-color: #fff;
+  background-color: #808080;
   color: #333;
   border-radius: 15px;
   padding: 40px 50px;
@@ -155,20 +159,20 @@ section {
 }
 
 .contentContainer h4 {
-  color: #fff;
+  color: #f8eaea;
   font-size: 18px;
   font-weight: 400;
   margin-bottom: 15px;
 }
 
 .contentContainer h5 {
-  color: #fff;
+  color: #f8eaea;
   font-size: 20px;
   margin-bottom: 15px;
 }
 
 .contentDescription {
-  color: #fff;
+  color: #f8eaea;
 }
 
 .infoContainer {
@@ -182,7 +186,7 @@ section {
 }
 
 .infoContainer span {
-  color: #fff;
+  color: #f8eaea
 }
 
 .infoContainer p {
@@ -205,7 +209,7 @@ section {
   align-items: center;
   justify-content: space-between;
   margin-right: 2rem;
-  color: #fff;
+  color: #808080;
 }
 
 .button {
@@ -315,7 +319,26 @@ ul {
 }
 
 .contactLabels, h4{
-  color: #fff;
+  color: #f8eaea;
+}
+
+.success-false {
+  animation: fadeOut 2s forwards;
+  animation-delay: 5s;
+  color: #198754;
+  padding: 5px;
+  text-align: center;
+}
+
+.success-true {
+  color: #198754;
+  padding: 5px;
+  text-align: center;
+}
+
+@keyframes fadeOut {
+  from {opacity: 1;}
+  to {opacity: 0;}
 }
 
 /* --- MEDIA QUERIES --- */

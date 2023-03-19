@@ -6,7 +6,8 @@ import ProjectItem from './ProjectItem';
 import projectInfo from "./projects-info/projectsInfo.json"
 
 function Projects() {
-
+  document.title = "My Projects"
+  
   const ProjectList = () =>
     projectInfo.map((project, i) => (
       <ProjectItem

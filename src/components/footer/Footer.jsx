@@ -1,6 +1,6 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import { FaGithub, FaLinkedinIn, FaYahoo } from 'react-icons/fa';
+import { FaGithub, FaLinkedinIn, FaMailBulk } from 'react-icons/fa';
 
 function Footer() {
   let date = new Date();
@@ -32,7 +32,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/dhruv-ramu-1a325622a/"
+                href="https://www.linkedin.com/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -47,7 +47,7 @@ function Footer() {
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <FaYahoo/>
+                <FaMailBulk/>
               </a>
             </li>
           </ul>
