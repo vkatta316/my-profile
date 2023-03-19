@@ -19,11 +19,11 @@ function Home() {
 
       </div>
       <div className="image-container">
-        <motion.img
+        {/* <motion.img
           className="landingImage"
           src={landingImage}
           alt=""
-        />
+        /> */}
       </div>
     </section>
   )

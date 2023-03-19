@@ -4,6 +4,7 @@ import PageHeader from '../header/PageHeader'
 import { motion } from 'framer-motion'
 import { useState, useEffect } from "react";
 import resume from "../../resume/Vinay-Chowdary-Katta-Resume.pdf"
+import landingImage from "../../images/Pic.png";
 
 function About() {
 
@@ -33,7 +34,11 @@ function About() {
       {/* <AboutMe name={name} location={location} brand={brand} email={email} availability={availability} /> */}
       <div className="aboutContainer container">
         <div className="row">
-       
+        <motion.div
+          className="personalImage col-12 col-lg-4"
+        >
+          <img src={landingImage} alt={landingImage} />
+        </motion.div>
         <motion.div
           className="personalInfo col-12 col-lg-8">
           <div className="contentContainer">

@@ -88,7 +88,9 @@ section {
   }
 }
 
-
+.navbar, .color-nav, .black{
+  background-color: #000;
+}
 
 .pageHeader{
   color: #808080;
@@ -137,6 +139,7 @@ section {
 
 .footerText{
   font-size: 1.25rem;
+  color: #acb2b9;;
 }
 .social-icons {
   display: inline-block !important;
@@ -153,10 +156,16 @@ section {
 }
 
 
-.contentContainer, .contactWrap {
+.contactWrap {
   padding-top: 8rem;
   padding-left: 8rem;
 }
+
+.contentContainer{
+  padding-top: 2rem;
+   
+}
+
 
 .contentContainer h4 {
   color: #f8eaea;

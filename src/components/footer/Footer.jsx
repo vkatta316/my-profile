@@ -8,7 +8,7 @@ function Footer() {
 
   return (
 
-    <Container fluid className="footer mainmenu">
+    <Container fluid className="color-nav black">
       <Row>
         <Col md="4" className="footer-body">
           <h3 className='footerText'>By Vinay Katta</h3>
@@ -21,9 +21,9 @@ function Footer() {
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
-              <a
+              <a className='footerText'
                 href="https://github.com/vkatta316"
-                style={{ color: "white" }}
+                
                 target="_blank" 
                 rel="noopener noreferrer"
               >
@@ -31,9 +31,9 @@ function Footer() {
               </a>
             </li>
             <li className="social-icons">
-              <a
+              <a className='footerText'
                 href="https://www.linkedin.com/"
-                style={{ color: "white" }}
+                
                 target="_blank" 
                 rel="noopener noreferrer"
               >
@@ -41,9 +41,9 @@ function Footer() {
               </a>
             </li>
             <li className="social-icons">
-              <a
+              <a className='footerText'
                 href="mailto:vinaykatta316@gmail.com"
-                style={{ color: "white" }}
+                
                 target="_blank" 
                 rel="noopener noreferrer"
               >
