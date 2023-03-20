@@ -1,6 +1,5 @@
 import React from 'react'
-import { motion } from 'framer-motion'
-import landingImage from "../../images/Pic.png";
+
 
 function Home() {
   document.title = "Home"
@@ -15,16 +14,8 @@ function Home() {
         <p className="description">
           I am a Full stack developer
         </p>
-
-
       </div>
-      <div className="image-container">
-        {/* <motion.img
-          className="landingImage"
-          src={landingImage}
-          alt=""
-        /> */}
-      </div>
+      
     </section>
   )
 }

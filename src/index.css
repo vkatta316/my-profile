@@ -156,14 +156,8 @@ section {
 }
 
 
-.contactWrap {
-  padding-top: 8rem;
-  padding-left: 8rem;
-}
-
-.contentContainer{
+.contentContainer, .contactWrap {
   padding-top: 2rem;
-   
 }
 
 
