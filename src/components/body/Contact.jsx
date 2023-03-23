@@ -6,10 +6,10 @@ import { motion } from 'framer-motion'
 function Contact() {
   document.title = "Contact"
   return (
-    <section className="contact">
+    <section className="flex1 contact">
       <PageHeader title="Contact" description="Get In Touch" />
       <div className="contactWrap container">
-        <div className="row">
+        <div className="myContact row">
           <div className="col-12 col-lg-6">
             <ContactForm />
           </div>

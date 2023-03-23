@@ -5,7 +5,7 @@ function Home() {
   document.title = "Home"
 
   return (
-    <section className='landing' >
+    <section className='flex1 landing' >
       <div className="textContainer waviy">
         <h1 className='name'>
           Vinay Katta

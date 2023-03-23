@@ -29,7 +29,7 @@ function About() {
     link.click();
   };
   return (
-    <section className="about">
+    <section className="flex1 about">
       <PageHeader title="About Me" description="Let me introduce myself" />
       {/* <AboutMe name={name} location={location} brand={brand} email={email} availability={availability} /> */}
       <div className="aboutContainer container">

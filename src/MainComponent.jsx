@@ -5,7 +5,7 @@ import Header from './components/header/Header'
 
 function MainComponent() {
   return (
-    <div>
+    <div className='mainContainer'>
         <Header />
         <Body />
         <Footer />
