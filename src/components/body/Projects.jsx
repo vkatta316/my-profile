@@ -27,7 +27,7 @@ function Projects() {
     <section className="flex1 portfolio">
       <PageHeader title="Portfolio" description="View my work" />
       <Container>
-        <Row lg={3} md={2} sm={6} xs={12}>
+        <Row lg={3} md={2} sm={2} xs={12}>
           <ProjectList />
         </Row>
       </Container>

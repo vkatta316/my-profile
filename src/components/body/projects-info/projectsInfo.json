@@ -1,10 +1,10 @@
 [
     {
-      "title": "Restaurent Feedback And View Menu",
+      "title": "Restaurant Feedback And View Menu",
       "image": "images/bike.png",
-      "description": "Provide feedback for a Restaurent and view food menu options ",
+      "description": "Provide feedback for a Restaurant and view food menu options ",
       "technologies": "React JS | JSON Server | React-Bootstrap",
-      "github": "https://github.com/vkatta316/restaurent-food-menu",
+      "github": "https://github.com/vkatta316/restaurant-menu-listing",
       "deployed": "https://github.com/vkatta316/restaurent-food-menu",
       "bgcolor": "#d3cac5",
       "id": "1"
@@ -34,7 +34,7 @@
       "image": "./projectImages/quiz.png",
       "technologies": "JAVA | Jakarta EE | JPA, JSF, MySQL, ",
       "description": "In this application, user book a room in a hotel, a customer must check the application to see if there is an empty room, the duration of the reservation and the overall cost.",
-      "github": "https://github.com/mdyeates/coding-quiz",
+      "github": "https://github.com/vkatta316/Hotel-Room-Reservation",
       "deployed": "",
       "bgcolor": "#fda9bf",
       "id": "4"
