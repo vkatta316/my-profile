@@ -3,7 +3,7 @@ import { Card, Container, Col } from "react-bootstrap"
 
 function ProjectItem({ id, title, github, description, technologies, image, deployed, color }) {
     return (
-        <div>
+        <div className='wrapper'>
             <>
 
                 <Card style={{ width: '100%', backgroundColor: color }} >

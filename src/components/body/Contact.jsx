@@ -36,7 +36,7 @@ function Contact() {
                     </span>
                     <div className="mediaWrap">
                       <h6 className="infoType">Location</h6>
-                      <span className="infoValue">Chicago</span>
+                      <span className="infoValue">Portland</span>
                     </div>
                   </div>
                 </li>

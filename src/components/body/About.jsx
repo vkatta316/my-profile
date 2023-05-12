@@ -19,8 +19,8 @@ function About() {
   const handleDownload = () => {
     setDownloading(true);
     const link = document.createElement("a");
-    link.href = resume;
-    link.download = "Vinay-Chowdary-Katta-Resume.pdf";
+    //link.href = resume;
+    //link.download = "Vinay-Chowdary-Katta-Resume.pdf";
     link.onload = () => {
       link.remove();
       setDownloading(false);
@@ -46,7 +46,7 @@ function About() {
             <h5>Developer who creates amazing digital experiences!</h5>
             <div className="contentDescription">
               <p>Around 10 + years of extensive Development and Support experience in the field of Information Technology. 
-                Developed applications using ServiceNow platform and experience in Java, Jakarta EE, JPA, JSF, Node.js, HTML5, JavaScript, CSS, and React JS.
+                Developed applications using ServiceNow platform and experience in Java, Jakarta EE, JPA, JSF, EJB, Node.js, Express with Pug, HTML5, JavaScript (ES6),Bootstrap, CSS, and React JS.
                 Ability to prioritize; manage work, take decisions and work in tandem with different departments ensuring on time delivery.</p>
             </div>
             <div className="infoContainer">
